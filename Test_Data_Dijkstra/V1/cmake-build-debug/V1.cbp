@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="V1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="V1">
+				<Option output="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/V1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/."/>
+					<Add directory="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/list"/>
+					<Add directory="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/matrix"/>
+					<Add directory="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/priority_queue"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 V1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="V1/fast">
+				<Option output="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/V1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/."/>
+					<Add directory="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/list"/>
+					<Add directory="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/matrix"/>
+					<Add directory="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/priority_queue"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 V1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/Graph_AdjList.hpp">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/Graph_AdjMatrix.hpp">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/PAMSI_03.cpp">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/list/dlist.hpp">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/list/slist.hpp">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/matrix/matrix.hpp">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/pair.hpp">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/priority_queue/priority_queue.hpp">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/priority_queue/priority_queue2.hpp">
+			<Option target="V1"/>
+		</Unit>
+		<Unit filename="/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

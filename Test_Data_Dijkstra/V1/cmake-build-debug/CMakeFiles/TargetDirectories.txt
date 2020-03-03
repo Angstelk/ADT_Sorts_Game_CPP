@@ -1,0 +1,3 @@
+/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/cmake-build-debug/CMakeFiles/V1.dir

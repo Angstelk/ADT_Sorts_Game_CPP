@@ -1,0 +1,117 @@
+#include <iostream>
+#include <list>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+void add_elements_front(list<int> *s, int m)
+{
+    int i = 0;
+
+    while (i < m)
+    {
+        s->push_front(rand() % 100);
+        i++;
+    }
+}
+
+bool remove_elements_front(list<int> *s, int k)
+{
+    int i = 0;
+    while (i < k)
+    {
+        if (!s->empty())
+        {
+            s->pop_front();
+            i++;
+        }
+        else
+        {
+            cout << "Mam blad, kolejka pusta" << endl;
+            return false;
+        }
+    }
+    return true;
+}
+
+void add_elements_back(list<int> *s, int m)
+{
+    int i = 0;
+
+    while (i < m)
+    {
+        s->push_back(rand() % 100);
+        i++;
+    }
+}
+
+bool remove_elements_back(list<int> *s, int k)
+{
+    int i = 0;
+    while (i < k)
+    {
+        if (!s->empty())
+        {
+            s->pop_back();
+            i++;
+        }
+        else
+        {
+            cout << "Mam blad" << endl;
+            return false;
+        }
+    }
+    return true;
+}
+
+
+
+void show_list(list<int> q)
+{
+    int i = 0;
+    int num = q.size();
+    while (!q.empty())
+    {
+
+        cout << i << " element is :" << q.front() << endl;
+        q.pop_front();
+        i++;
+    }
+}
+
+
+
+list<int> add_at_front(list<int> *q, int elements)
+{
+    list<int> Q;
+    list<int> *Q_pointer;
+    Q_pointer = &Q;
+    add_elements_front(Q_pointer, elements);
+    while (!q->empty())
+    {
+        Q.push_front(q->front());
+        q->pop_front();
+    }
+
+    return Q;
+}
+int main()
+{
+    list<int> s;
+    int i = 0;
+    int list_elements = 30;
+    int list_rm_elemets = 300;
+    list<int> *pointer;
+    pointer = &s;
+
+    add_elements_front(pointer, list_elements);
+   if(!s.empty()) cout << "The front value from list : " << s.front() << endl;
+    add_elements_front(pointer,3);
+    remove_elements_front(pointer,list_rm_elemets);
+    if(!s.empty())cout << "The front value from list: " << s.front() << endl;
+    remove_elements_back(pointer,1);
+   if(!s.empty()) cout << "The last value from list: " << s.back() << endl;
+    remove_elements_front(pointer,s.size());
+    cout << "ilosc:" << s.size();
+    return 0;
+}

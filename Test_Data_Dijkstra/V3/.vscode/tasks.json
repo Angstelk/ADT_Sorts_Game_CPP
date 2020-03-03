@@ -1,0 +1,18 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "hardcode build command",
+            "command": " g++ -g /home/apeiron/PAMSI/Projekt3/PAMSI2-master/V3/PAMSI2.cpp /home/apeiron/PAMSI/Projekt3/PAMSI2-master/V3/AdjMatrix.cpp /home/apeiron/PAMSI/Projekt3/PAMSI2-master/V3/Graph.cpp  /home/apeiron/PAMSI/Projekt3/PAMSI2-master/V3/List.cpp  /home/apeiron/PAMSI/Projekt3/PAMSI2-master/V3/MinHeap.cpp  /home/apeiron/PAMSI/Projekt3/PAMSI2-master/V3/MinHeapN.cpp -o PAMSI2 && ./PAMSI2",
+            "options": {
+                "cwd": "/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V3/"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

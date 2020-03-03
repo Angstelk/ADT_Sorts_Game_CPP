@@ -1,0 +1,9 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "command": "g++",
+    "isShellCommand": true,
+    "args": [ "PAMSI_03.cpp", "-o"," PAMSI_03", "&&", "/home/apeiron/PAMSI/Projekt3/PAMSI2-master/V1/PAMSI_03" ],
+    "showOutput": "always"
+}
